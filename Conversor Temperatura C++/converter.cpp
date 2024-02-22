@@ -10,7 +10,7 @@ int main()
     // Obtendo as informações do usuário
 
     double temperatura_original;
-    char unidade_original;
+    char unidade_original = 'D';
     double temperatura_convertida;
 
     cout << "Qual a temperatura? \n";

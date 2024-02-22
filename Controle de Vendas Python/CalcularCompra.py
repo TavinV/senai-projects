@@ -2,7 +2,7 @@ import os
 
 prateleira = {
     "suco de laranja" : 10.50,
-    "suco de Uva": 9.99,
+    "suco de uva": 9.99,
     "suco de limao" : 8.90
     }
 
