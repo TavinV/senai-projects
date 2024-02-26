@@ -3,7 +3,8 @@ import os
 prateleira = {
     "suco de laranja" : 10.50,
     "suco de uva": 9.99,
-    "suco de limao" : 8.90
+    "suco de limao" : 8.90,
+    "suco de mamao" : 10
     }
 
 
@@ -52,7 +53,6 @@ while True:
         produto_a_remover = input("Produto a remover: ").lower()
         quantidade = input("Unidades a remover (deixar em 0 cancela, a letra T retira todas.) ").lower()
         
-        print(produto_a_remover)
         try:
             if quantidade == "t":
                 carrinho.pop(produto_a_remover)
