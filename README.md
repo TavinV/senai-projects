@@ -5,15 +5,18 @@ Nada de mais por aqui! Apenas pequenas aplicações em C++, Java, Python e outro
 
 ```java
 
-respostasPorTentativas.add(null); // Resposta para a primeira tentativa
-respostasPorTentativas.add(null); // Resposta para a segunda tentativa
-respostasPorTentativas.add(null); // Resposta para a terceira tentativa
-respostasPorTentativas.add(null); // Resposta para a quarta tentativa
-respostasPorTentativas.add(null); // Resposta para a quinta tentativa
-respostasPorTentativas.add(null); // Resposta para a sexta tentativa
-respostasPorTentativas.add(null); // Resposta para a sétima tentativa
-respostasPorTentativas.add(null); // Resposta para a oitava tentativa
-respostasPorTentativas.add(null); // Resposta para a nona tentativa
-respostasPorTentativas.add(null); // Resposta para a décima tentativa
+
+ArrayList<String> respostasPorTentativas = new ArrayList<>();
+
+respostasPorTentativas.add("Parabéns! Você acertou na primeira tentativa!");
+respostasPorTentativas.add("Você está indo bem, acertou na segunda tentativa!");
+respostasPorTentativas.add("Hmm, não foi tão difícil, você acertou na terceira tentativa.");
+respostasPorTentativas.add("Finalmente! Acertou na quarta tentativa.");
+respostasPorTentativas.add("A quinta vez é o charme, não é? Você acertou!");
+respostasPorTentativas.add("Hmm, levou seis tentativas, mas você acertou.");
+respostasPorTentativas.add("Parece que você está tendo dificuldades... mas acertou na sétima tentativa.");
+respostasPorTentativas.add("Ufa! Na oitava tentativa, finalmente!");
+respostasPorTentativas.add("Está ficando preocupante, mas você acertou na nona tentativa.");
+respostasPorTentativas.add("Uau, você acertou na décima tentativa! Por pouco.");
 
 ```
