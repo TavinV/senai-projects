@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário JSON</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="form">
+        <div class="form-wrapper">
+            <h2>Preencha com suas informações</h2>
+            <div class="inputs">
+                <label for="Nome">Nome</label>
+                <input autocomplete="off" id="Nome" type="text">
+            </div>
+            <div class="inputs">
+                <span>
+                    <label for="Agencia">Agência</label>
+                    <input  autocomplete="off" id="Agencia" type="text">
+                </span>
+                <span>
+                    <label for="Conta">Conta</label>
+                    <input  autocomplete="off" id="Conta" type="text">
+                </span>
+            </div>
+            <button onclick="EnviarFormulario()">Enviar</button>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
